@@ -15,7 +15,7 @@ public class JsonCommand {
 		sb.append("[");
 		// idx, name, subject, content, email, pwd, regdate
 		for (VO k : list) {
-			sb.append("{\"id\" : \""+k.getIdx() +"\", \"name\" : \"" +k.getName()+"\", "+
+			sb.append("{\"idx\" : \""+k.getIdx() +"\", \"name\" : \"" +k.getName()+"\", "+
 		    "\"subject\" : \""+ k.getSubject() +"\", \"email\" : \"" +k.getEmail()+"\","+
 		    "\"regdate\" : \"" + k.getRegdate().substring(0, 10) +"\" },") ;			
 		}

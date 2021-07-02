@@ -21,7 +21,7 @@ public class MyController3 extends HttpServlet {
 	}
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.setCharacterEncoding("utf-8");
-		response.setContentType("text/plain; charset=utf-8");
+		response.setContentType("text/json; charset=utf-8");
 		PrintWriter out = response.getWriter();
 		
 		JsonCommand json = new JsonCommand();

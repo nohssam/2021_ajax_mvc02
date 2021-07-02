@@ -84,7 +84,7 @@
 					var table = "<thead>";
 					table += "<tr><th>번호</th><th>이름</th><th>제목</th><th>Email</th><th>날짜</th></tr>";
 					table += "<tbody>";
-					$.each(function() {
+					$.each(data,function() {
 						table += "<tr>";
 						table +="<td>"+ this["idx"]+"</td>";
 						table +="<td>"+ this["name"]+"</td>";
